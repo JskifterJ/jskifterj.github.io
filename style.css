@@ -190,3 +190,24 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
 .skill-item { font-size: 12px; color: var(--text-muted); }
 .skill-item em { font-style: normal; color: var(--text-dim); margin-left: 4px; }
 .skill-item.green { color: var(--green); }
+
+#contact { padding-bottom: 80px; }
+.contact-intro { font-size: 15px; color: var(--text-muted); margin-bottom: 28px; max-width: 480px; }
+.contact-links { display: flex; flex-direction: column; gap: 14px; }
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 14px;
+  color: var(--text-muted);
+  text-decoration: none;
+  width: fit-content;
+  transition: color 0.15s;
+}
+.contact-link:hover { color: var(--text); text-decoration: none; }
+.contact-icon {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 6px; font-size: 13px; color: var(--green); flex-shrink: 0;
+}
