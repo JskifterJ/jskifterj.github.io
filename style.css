@@ -122,3 +122,26 @@ a:hover { text-decoration: underline; }
 .btn-primary { background: #238636; color: #fff; }
 .btn-ghost { background: transparent; border: 1px solid var(--border); color: var(--text-muted); }
 .btn-sm { padding: 6px 14px; font-size: 12px; }
+
+section { padding: 56px 0; border-top: 1px solid var(--border); }
+.section-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  margin-bottom: 32px;
+  font-family: var(--mono);
+}
+
+.timeline { display: flex; flex-direction: column; gap: 32px; }
+.timeline-item { display: grid; grid-template-columns: 160px 1fr; gap: 24px; }
+.timeline-meta { display: flex; flex-direction: column; gap: 4px; padding-top: 3px; }
+.timeline-date { font-size: 12px; color: var(--text-dim); font-family: var(--mono); }
+.timeline-location { font-size: 11px; color: var(--text-dim); opacity: 0.7; }
+.timeline-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.timeline-header h3 { font-size: 16px; font-weight: 600; }
+.timeline-company { font-size: 13px; color: var(--blue); }
+.timeline-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 8px; font-style: italic; }
+.timeline-bullets { list-style: none; display: flex; flex-direction: column; gap: 5px; padding-left: 14px; }
+.timeline-bullets li { font-size: 13px; color: var(--text-muted); position: relative; line-height: 1.5; }
+.timeline-bullets li::before { content: '—'; position: absolute; left: -18px; color: var(--text-dim); }
