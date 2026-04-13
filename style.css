@@ -211,3 +211,20 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: 6px; font-size: 13px; color: var(--green); flex-shrink: 0;
 }
+
+@media (max-width: 720px) {
+  .metrics-strip { grid-template-columns: repeat(3, 1fr); }
+  .metrics-strip .metric:nth-child(4),
+  .metrics-strip .metric:nth-child(5) { display: none; }
+  .timeline-item { grid-template-columns: 1fr; gap: 2px; }
+  .timeline-meta { flex-direction: row; gap: 12px; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .skills-grid { grid-template-columns: 1fr 1fr; }
+  .edu-header { flex-direction: column; }
+  .edu-meta { align-items: flex-start; flex-direction: row; }
+  .nav-links { gap: 16px; }
+}
+@media (max-width: 480px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .nav-links a:not(:first-child):not(:last-child) { display: none; }
+}
