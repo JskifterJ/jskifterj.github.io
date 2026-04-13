@@ -1,0 +1,39 @@
+:root {
+  --bg: #0d1117;
+  --bg-deep: #090c10;
+  --bg-card: #161b22;
+  --border: #21262d;
+  --border-hover: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --text-dim: #6e7681;
+  --green: #7ee787;
+  --blue: #58a6ff;
+  --blue-light: #a5d6ff;
+  --orange: #f78166;
+  --yellow: #d29922;
+  --purple: #d2a8ff;
+  --mono: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg-deep);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.6;
+  font-size: 15px;
+}
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+.mono { font-family: var(--mono); }
+.green { color: var(--green); }
+.blue { color: var(--blue); }
+.blue-light { color: var(--blue-light); }
+.orange { color: var(--orange); }
+.purple { color: var(--purple); }
+.dim { color: var(--text-dim); }
+.small { font-size: 11px; }
