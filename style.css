@@ -58,3 +58,67 @@ a:hover { text-decoration: underline; }
 .nav-links { list-style: none; display: flex; gap: 28px; }
 .nav-links a { color: var(--text-muted); font-size: 13px; text-decoration: none; transition: color 0.15s; }
 .nav-links a:hover, .nav-links a.active { color: var(--text); }
+
+#hero { padding: 72px 0 56px; }
+.top-label { margin-bottom: 10px; opacity: 0.6; }
+.hero-name { font-size: clamp(32px, 5vw, 48px); font-weight: 700; margin-bottom: 12px; }
+.hero-sub { color: var(--text-muted); margin-bottom: 24px; line-height: 1.7; }
+.hero-sub em { font-size: 13px; }
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+.tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.metrics-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.metric {
+  background: var(--bg-card);
+  padding: 14px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.metric-val { font-size: 20px; font-weight: 700; font-family: var(--mono); }
+.metric-val small { font-size: 11px; color: var(--text-dim); }
+.metric-label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); }
+
+.venture-log {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.venture-header { margin-bottom: 10px; }
+.venture-lines { display: flex; flex-direction: column; gap: 7px; font-size: 13px; }
+.venture-lines p { line-height: 1.5; }
+
+.cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn {
+  padding: 9px 22px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.85; text-decoration: none; }
+.btn-primary { background: #238636; color: #fff; }
+.btn-ghost { background: transparent; border: 1px solid var(--border); color: var(--text-muted); }
+.btn-sm { padding: 6px 14px; font-size: 12px; }
