@@ -61,7 +61,9 @@ a:hover { text-decoration: underline; }
 
 #hero { padding: 72px 0 56px; }
 .top-label { margin-bottom: 10px; opacity: 0.6; }
-.hero-name { font-size: clamp(32px, 5vw, 48px); font-weight: 700; margin-bottom: 12px; }
+.hero-name { font-size: clamp(32px, 5vw, 48px); font-weight: 700; margin-bottom: 6px; }
+.hero-alt { font-weight: 400; color: var(--text-dim); font-size: 0.7em; letter-spacing: 0.5px; }
+.name-note { margin-bottom: 16px; opacity: 0.7; }
 .hero-sub { color: var(--text-muted); margin-bottom: 24px; line-height: 1.7; }
 .hero-sub em { font-size: 13px; }
 
@@ -146,6 +148,10 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
 .timeline-bullets li { font-size: 13px; color: var(--text-muted); position: relative; line-height: 1.5; }
 .timeline-bullets li::before { content: '—'; position: absolute; left: -18px; color: var(--text-dim); }
 
+.story-prose { display: flex; flex-direction: column; gap: 16px; max-width: 680px; color: var(--text-muted); line-height: 1.75; }
+.story-prose p { font-size: 14px; }
+.story-prose em { color: var(--text); font-style: italic; }
+
 .project-featured {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -169,7 +175,10 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
   flex-direction: column;
   gap: 8px;
 }
-.project-card h4 { font-size: 14px; font-weight: 600; }
+.project-card h4 { font-size: 14px; font-weight: 600; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.project-year { font-size: 11px; font-weight: 400; }
+.project-card.project-private { border-style: dotted; border-color: var(--border-hover); background: transparent; }
+.project-private-label { font-size: 11px; color: var(--text-dim); margin-top: auto; }
 .project-card p { font-size: 12px; color: var(--text-muted); line-height: 1.6; flex: 1; }
 .project-link { font-size: 12px; color: var(--blue); }
 .project-link:hover { text-decoration: underline; }

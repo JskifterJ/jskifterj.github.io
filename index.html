@@ -18,7 +18,7 @@
     <ul class="nav-links">
       <li><a href="#experience">work</a></li>
       <li><a href="#projects">projects</a></li>
-      <li><a href="#education">about</a></li>
+      <li><a href="#story">about</a></li>
       <li><a href="#contact">contact</a></li>
     </ul>
   </div>
@@ -27,12 +27,14 @@
     <section id="hero">
   <div class="container">
     <p class="mono dim small top-label">// nice to meet you</p>
-    <h1 class="hero-name">Johannes Skifter</h1>
+    <h1 class="hero-name"><span class="hero-alt">[Jacob]</span> Johannes Skifter</h1>
+    <p class="mono dim small name-note">// Jacob comes first on paper, Johannes in practice. EN/DK/DE family with differing opinions — but all three countries landed on Johannes. Naming conflicts aren't unique to distributed systems.</p>
     <p class="hero-sub">
       MSc candidate · <span class="blue">EPFL / IMD / HEC</span> &nbsp;·&nbsp; Chief of Staff, <span class="blue">Impossible Cloud</span><br>
-      <em class="dim">Technically not an engineer — but I've been taking things apart since before that was a career path.</em>
+      <em class="dim">Technically not an engineer — but I've been taking things apart since before that was a career path. Lately: building GenAI systems and agents, where the pieces just seem to fit.</em>
     </p>
     <div class="tag-row">
+      <span class="tag">🤖 GenAI systems &amp; agents</span>
       <span class="tag">⚡ Energy systems</span>
       <span class="tag">📊 Finance &amp; analytics</span>
       <span class="tag">🐍 Python / ML / SQL</span>
@@ -48,10 +50,14 @@
     <div class="venture-log">
       <p class="mono dim small venture-header">git log --oneline --ventures</p>
       <div class="venture-lines">
-        <p><span class="mono dim">16 —</span> <strong>Imported stickers from China, sold locally.</strong> <em class="dim">Margin was great. Scale was not.</em></p>
-        <p><span class="mono dim">17 —</span> <strong>Mini ad agency: websites + Google Ads.</strong> <em class="dim">Closed it. The clients weren't ready. (Neither was I.)</em></p>
-        <p><span class="mono dim">15→</span> <strong>Bought, fixed &amp; resold €30k+ of electronics.</strong> <em class="dim">Still my most reliable income source.</em></p>
-        <p><span class="mono dim">20→</span> <strong>Co-founded Orbitvu Nordic.</strong> <em class="dim">DKK 500k → 3.5M. Learned more than any class.</em></p>
+        <p><span class="mono dim">15 →</span> <strong>Bought, fixed &amp; resold €30k+ of electronics.</strong> <em class="dim">Still my most reliable income source.</em></p>
+        <p><span class="mono dim">16 →</span> <strong>Imported stickers from China, sold locally.</strong> <em class="dim">Margin was great. Scale was not.</em></p>
+        <p><span class="mono dim">17 →</span> <strong>Mini ad agency: websites + Google Ads.</strong> <em class="dim">Closed it. The clients weren't ready. (Neither was I.)</em></p>
+        <p><span class="mono dim">20 →</span> <strong>Co-founded Orbitvu Nordic.</strong> <em class="dim">DKK 500k → 3.5M. Learned more than any class.</em></p>
+        <p><span class="mono dim">22 →</span> <strong>Wharton on exchange.</strong> <em class="dim">M&amp;A, PE finance, and falling hard for time-value-of-money.</em></p>
+        <p><span class="mono dim">23 →</span> <strong>FIH Partners — Denmark's sharpest M&amp;A boutique.</strong> <em class="dim">Great deals, great people. Also where I watched LLMs start eating the deliverable.</em></p>
+        <p><span class="mono dim">24 →</span> <strong>Pivoted to EPFL / IMD / HEC in Lausanne.</strong> <em class="dim">Googled the campus. Stayed for the mountains.</em></p>
+        <p><span class="mono dim">26 →</span> <strong>Chief of Staff, Impossible Cloud Network.</strong> <em class="dim">Building GenAI agents and in-house tooling. Back to playing with Lego.</em></p>
       </div>
     </div>
     <div class="cta-row">
@@ -123,13 +129,26 @@
     </div>
   </div>
 </section>
+    <section id="story">
+  <div class="container">
+    <h2 class="section-title">The long version</h2>
+    <div class="story-prose">
+      <p class="mono dim small">// cat ~/story.md</p>
+      <p>Grew up in a Danish village of two thousand. Figured I was destined for big business in the big city — which, for someone from the countryside, was Copenhagen. Got there, enrolled at CBS, and pretty quickly discovered I was bored. Three years of side jobs, side projects, and extracurriculars trying to manufacture the challenge the degree wasn't giving me. In hindsight, I should have studied hardware engineering.</p>
+      <p>What rescued it was stumbling on the time-value-of-money — a single idea that rewired how I saw everything financial. That momentum carried me to Wharton on exchange, and then into FIH Partners, Copenhagen's sharpest M&amp;A boutique. Great deals, better peers. Also where it became obvious — watching ChatGPT sit quietly at the edge of every deliverable — that LLMs were going to eat large parts of advisory work.</p>
+      <p>So I pivoted. Googled "sustainability management technology", landed on the EPFL / IMD / HEC joint programme in Lausanne, saw the mountains in the search results, and signed up. The unspoken reason: I needed out of the big-city-Copenhagen loop, and to focus on one thing — studying, and being alive outside of it.</p>
+      <p>In the mountains I picked up trail running, hiking, biking, ski touring. Had a blast — and rediscovered what I actually like doing: building things. The barrier to building with AI right now is astonishingly low, and I seem to have an intuition for how the pieces fit together. I'm back to playing with Lego: wiring systems, shipping agents, making things that work.</p>
+      <p>Recently visited my sister in Dublin. She works in tech; most of her friends are solutions engineers and in technical sales. Talking with them was the first <em>"this is it"</em> moment I've had about a role in a long time — the people side <em>and</em> the backend, building long-term relationships with clients while translating what they actually need back into the product. Not far from product management, honestly. That's the direction I'm pointing.</p>
+    </div>
+  </div>
+</section>
     <section id="projects">
   <div class="container">
     <h2 class="section-title">Projects</h2>
 
     <div class="project-featured">
       <p class="mono dim small project-featured-label">featured project</p>
-      <h3 class="project-title">EU Grid Dashboard <span class="tag tag-live">live ●</span></h3>
+      <h3 class="project-title">EU Grid Dashboard <span class="project-year mono dim">2026</span> <span class="tag tag-live">live ●</span></h3>
       <p class="project-desc">Real-time European electricity grid — generation mix, day-ahead prices, cross-border flows, and CO₂ intensity per country. Includes an AI-generated plain-English grid briefing. Built with Python (FastAPI), ENTSO-E Transparency Platform, D3.js, and Chart.js.</p>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">D3.js</span><span class="tag">ENTSO-E API</span><span class="tag">Gemini API</span>
@@ -142,28 +161,52 @@
 
     <div class="projects-grid">
       <div class="project-card">
-        <h4>GPU Industry Deck</h4>
+        <h4>GPU Industry Deck <span class="project-year mono dim">2026</span></h4>
         <p>Single-file HTML deck on the GPU compute market — hardware supply, hyperscaler capex, energy constraints, and the implications for the utility-token-backed compute networks I work on at ICN.</p>
         <div class="project-tags"><span class="tag">HTML</span><span class="tag">Market research</span><span class="tag">GPU / Infra</span></div>
         <a href="https://github.com/JskifterJ/gpu_industry" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="project-card">
-        <h4>Recommendation Platform</h4>
+        <h4>Recommendation Platform <span class="project-year mono dim">2020</span></h4>
         <p>End-to-end data science project: schema design, Python backend, recommendation engine. Built on the Boligportal.dk dataset at TechLabs Copenhagen.</p>
         <div class="project-tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">ML</span></div>
         <a href="https://github.com/JskifterJ/Re-valuation-modelling" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="project-card">
-        <h4>Reddit Post Prediction</h4>
+        <h4>Reddit Post Prediction <span class="project-year mono dim">2021</span></h4>
         <p>Predictive modelling on Reddit content — NLP features, classification, and model performance analysis.</p>
         <div class="project-tags"><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">scikit-learn</span></div>
         <a href="https://github.com/JskifterJ/BDA-Reddit-post-prediction" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="project-card">
-        <h4>DK Investment Dashboard</h4>
+        <h4>DK Investment Dashboard <span class="project-year mono dim">2026</span></h4>
         <p>Personal dashboard for tracking Danish investment portfolio data and performance metrics.</p>
         <div class="project-tags"><span class="tag">Data</span><span class="tag">Finance</span></div>
         <a href="https://github.com/JskifterJ/DK_inv_dashboard" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="project-card project-private">
+        <h4>career <span class="project-year mono dim">2026</span></h4>
+        <p>Private agent behind my job search. Ingests a posting, analyses fit, and drafts a tailored CV, cover letter, and outreach against a personal backbone — with review gates before anything ships.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Claude SDK</span><span class="tag">Agent</span></div>
+        <span class="project-private-label mono dim">🔒 private repo</span>
+      </div>
+      <div class="project-card project-private">
+        <h4>agent <span class="project-year mono dim">2026</span></h4>
+        <p>Personal Claude Code workspace — memory, skills, integrations, and daily routines. A living experiment in making one durable AI setup actually useful across work and life.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Claude CLI</span><span class="tag">Skills / memory</span></div>
+        <span class="project-private-label mono dim">🔒 private repo</span>
+      </div>
+      <div class="project-card project-private">
+        <h4>ai-news-digest <span class="project-year mono dim">2026</span></h4>
+        <p>Monthly AI &amp; GPU industry digest for ICN. Scrapes the sources that matter, summarises them into a readable internal briefing — a manual weekly task turned into a cron job.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Claude SDK</span><span class="tag">Automation</span></div>
+        <span class="project-private-label mono dim">🔒 private repo</span>
+      </div>
+      <div class="project-card project-private">
+        <h4>OpenClaw × HP ProDesk 600 <span class="project-year mono dim">2026</span></h4>
+        <p>Revived a retired HP ProDesk 600 as a dedicated OpenClaw rig — the open-source rebuild of the 1997 platformer. Hardware-tinkering for the joy of it; proof that old office machines still have another life.</p>
+        <div class="project-tags"><span class="tag">Hardware</span><span class="tag">OpenClaw</span><span class="tag">Retro</span></div>
+        <span class="project-private-label mono dim">🔧 lab / no repo</span>
       </div>
     </div>
   </div>
