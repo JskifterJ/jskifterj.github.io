@@ -359,7 +359,7 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Chief of Staff</h3>
-            <span class="timeline-company">Impossible Cloud Network</span>
+            <span class="timeline-company">Impossible Cloud</span>
           </div>
           <ul class="timeline-bullets">
             <li>Spearheading gen-AI adoption across the company, including developing my own personal agent (Claude CLI)</li>
