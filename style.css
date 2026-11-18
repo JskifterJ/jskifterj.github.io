@@ -1,20 +1,11 @@
 :root {
-  --bg: #f7f6f2;
-  --ink: #222320;
-  --muted: #74766f;
-  --line: #dcdad3;
+  color-scheme: light;
+  --bg: #efe9dc;
+  --ink: #2a2722;
+  --muted: #6f6a5f;
+  --line: #d3cab6;
   --accent: #2f7d5b;
   --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #141514;
-    --ink: #dcdcd6;
-    --muted: #8a8c85;
-    --line: #2c2e2b;
-    --accent: #7ccf9f;
-  }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -48,6 +39,13 @@ a {
 a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 
 header { margin-bottom: 2rem; }
+.face {
+  display: block;
+  width: 170px;
+  height: auto;
+  margin: 0 0 1.25rem;
+  image-rendering: pixelated;
+}
 
 h1 {
   font-size: 1.5rem;
