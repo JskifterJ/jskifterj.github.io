@@ -76,7 +76,7 @@ li::before { content: "- "; color: var(--muted); }
 
 .list {
   display: grid;
-  grid-template-columns: 11ch 1fr;
+  grid-template-columns: 14ch 1fr;
   gap: 0.5rem 1.5ch;
   margin: 0 0 1rem;
 }
